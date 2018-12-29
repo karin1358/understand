@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<!-- <meta name="robots" content="noindex,nofollow" /> -->
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0" /> -->
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/mailform.css" />
+
+<!-- ご希望の日時選択ライブラリここから -->
+<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css" />
+	</head>
+<body>
+	<header>
+		<div class="inner">
+			<div class="header-flex">
+				<div class="child-box">
+					<p>株式会社おおたに</p>
+				</div>
+				<div class="header-child">
+					<ul>
+						<li>トップ</li>
+						<li>事業内容</li>
+						<li>会社情報</li>
+						<li>お問い合わせ</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="top-wrapper-color">
+		<div class="inner">
+		<div class="wrapper-text">
+			<p class="wrapper-text-child">不動産売却、購入をお考えの方は
+				　<br>ご相談ください。</p>
+			<div class="wrapper-text-small">
+				<p>株式会社おおたに</p>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="wrapper-color">
+		<div class="inner">
+		<div class="box-img">
+			<img src="./img/BFAC907E9A3FC58B.jpg">
+		</div>
+		<div class="box-text1">
+			<h2>不安を安心に</h2>
+			<p>将来に不安を抱えている人が多い現代、資産形成の手段はたくさんありますが、金融商品（保険・銀行・証券）だけではカバーできない部分があります。
+				<br>sそこで不動産はそれを補える資産形成の一つです。将来への不安を安心に変えるお手伝いができます。</p>
+		</div>
+		</div>
+	</div>
+	<div class="body1">
+			<div class="box-img">
+				<img src="./img/CDD43B41B124517E.jpg">
+			</div>
+		<div class="inner">
+			<div class="box-text2">
+					<h2>事業内容</h2>
+			</div>
+				<div class="inner-box-text2">
+
+					<p>Real estate</p>
+					<h2>不動産</h2>
+				</div>
+		</div>
+	</div>
+	<div class="body11">
+		<!-- ここイメージ -->
+	</div>
+	<div class="body2">
+		<div class="inner">
+			<div class="box-img">
+				<img src="./img/CDD43B41B1245177.jpg">
+			</div>
+			<div class="box-text3">
+				<p>Investment property</p>
+				<h2>投資用不動産</h2>
+			</div>
+		</div>
+	</div>
+	<div class="body3">
+		<div class="inner">
+			<p>Asset Formation consultant</p>
+			<h2>資産形成コンサル</h2>
+			<div class="box-img-double">
+				<img src="./img/CDD43B41B124517F.jpg">
+				<img src="./img/CDD43B41B1245172.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="body4">
+		<!-- ここイメージ -->
+	</div>
+	<div class="body5">
+		<!-- ここ概要のイメージ -->
+	</div>
+	
+	<div class="body6">
+		<div class="inner">
+			<div class="form">
+				
+				<img src="./img/Asset1.png">
+			</div>
+		</div>
+	</div>
+	<div class="body8">
+		
+	</div>
+	<div class="cover">
+	<div class="body9">
+		<div class="inner">
+		<p class="contact">お問い合わせ</p>
+				<p class="mailform">メールフォーム</p>
+				<p>下記のフォームに必要事項をご記入の上、確認ボタンを押してください。
+				<br>「*」が必要事項です。
+				<br>ご入力いただいた情報は、お問い合わせ内容へのご回答の目的のみに利用いたします。</p>
+				<p>内容によっては、時間がかかる場合や回答いたしかねる場合がございますのでご了承願います。
+				<br>お急ぎの際はお電話にてお問い合わせください。</p>
+<!-- --------------------------------- -->
+		<form action="php/mailform.php" method="post" id="mail_form">
+		<dl>
+			<div style="display: flex;">
+			<dt style="margin-right: 20px; width: 155px !important;">お名前*</dt>
+			<dd class="required" style="margin-right:20px;width: 268px !important;"><input type="text" id="name_1" name="name_1" value="" /> </dd>
+			
+			<dt  style="width: 100px !important;">ふりがな</dt>
+			<dd style="width: 268px !important;"><input type="text" id="read_1" name="read_1" value="" /></dd>
+			</div>
+			<dt>メールアドレス*</dt>
+			<dd class="required"><input type="email" id="mail_address" name="mail_address" value="" /></dd>
+			
+			<dt>電話番号*</dt>
+			<dd><input type="tel" id="phone" name="phone" value="" /></dd>
+			
+			<dt>件名</dt>
+			<dd><input type="tel" id="title" name="title" value="" /></dd>
+			
+			
+			<dt>お問い合わせ内容*</dt>
+			<dd class="required"><textarea id="mail_contents" name="mail_contents" cols="40" rows="5"></textarea></dd>
+			
+		<p id="form_submit"><input type="button" id="form_submit_button" value="確認" /></p>
+	</form>
+
+<!-- --------------------------------- -->
+
+		</div>
+	</div>
+	</div>
+
+	<div class="body10">
+		<!-- ここ画像 -->
+	</div>
+	<footer>
+		<div class="inner">
+			<ul>
+				<li>トップ</li>
+				<li>事業内容</li>
+				<li>会社情報</li>
+				<li>お問い合わせ</li>
+			</ul>
+		</div>
+		<form action="mail.php" method="post">
+
+
+		<div class="">
+			<p>© 2018 Otani Inc.</p>
+		</div>
+	</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/mailform-js.php"></script>
+
+
+<!-- フリガナ自動入力ライブラリここから -->
+<script src="js/jquery.autoKana.js"></script>
+<script>
+	(function( $ ) {
+    $.fn.autoKana( '#name_1', '#read_1', {
+      katakana: false
+    });
+    $.fn.autoKana( '#name_2', '#read_2', {
+      katakana: false
+    });
+	})( jQuery );
+</script>
+<!-- フリガナ自動入力ライブラリここまで -->
+
+
+<!-- 住所自動入力ライブラリここから -->
+<script src="js/ajaxzip3.js"></script>
+<!-- 住所自動入力ライブラリここまで -->
+
+
+<!-- ご希望の日時選択ライブラリここから -->
+<script src="js/jquery.datetimepicker.js"></script>
+<script>
+	(function( $ ) {
+		$( 'input#schedule' ).datetimepicker({
+			lang: 'ja'
+		});
+	})( jQuery );
+</script>
+</body>
+</html>
